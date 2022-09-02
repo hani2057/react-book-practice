@@ -1,11 +1,11 @@
-
-// import React, { Say } from 'react';
-import EventPractice from './EventPractice3';
+import React, { Component } from 'react';
+import IterationSample from './IterationSample';
 import './App.css';
 
-const App = () => {
-  return <EventPractice />;
-};
-
+class App extends Component {
+  render() {
+    return <IterationSample />;
+  }
+}
 
 export default App;
